@@ -1,0 +1,44 @@
+{
+  "name": "sftp",
+  "description": "Installs & Configures sftp chroot server.",
+  "long_description": "# sftp-cookbook\n\nInstalls & Configures SFTP and chroot'd SFTP users.\n\n## Supported Platforms\n\nUbuntu\n\n## Attributes\n\n<table>\n  <tr>\n    <th>Key</th>\n    <th>Type</th>\n    <th>Description</th>\n    <th>Default</th>\n  </tr>\n  <tr>\n    <td><tt>['sftp']['sftp_group_id']</tt></td>\n    <td>String</td>\n    <td>SFTP Chroot Group ID</td>\n    <td><tt>2012</tt></td>\n  </tr>\n</table>\n\n## Usage\n\n### sftp::default\n\nInclude `sftp` in your node's `run_list`:\n\n```json\n{\n  \"run_list\": [\n    \"recipe[sftp::default]\"\n  ]\n}\n```\n\n## Contributing\n\n1. Fork the repository on Github\n2. Create a named feature branch (i.e. `add-new-recipe`)\n3. Write you change\n4. Write tests for your change (if applicable)\n5. Run the tests, ensuring they all pass\n6. Submit a Pull Request\n\n## Author\n\nAuthor:: Greg Albrecht (<gba@onbeep.com>)\n\n## Contributors\n\n* Jacobo García López de Araujo https://github.com/therobot\n* Anthony Scalisi https://github.com/scalp42\n\n## Copyright\n\nCopyright 2014 OnBeep, Inc.\n\n## License\n\nApache License, Version 2.0\n\n## Source\n\nhttps://github.com/OnBeep/cookbook-sftp\n",
+  "maintainer": "Greg Albrecht",
+  "maintainer_email": "gba@onbeep.com",
+  "license": "Apache License, Version 2.0",
+  "platforms": {
+
+  },
+  "dependencies": {
+    "chef-solo-search": "~> 0.5.1",
+    "openssh": "~> 1.3.4",
+    "users": "~> 1.7.0"
+  },
+  "recommendations": {
+
+  },
+  "suggestions": {
+
+  },
+  "conflicting": {
+
+  },
+  "providing": {
+
+  },
+  "replacing": {
+
+  },
+  "attributes": {
+
+  },
+  "groupings": {
+
+  },
+  "recipes": {
+
+  },
+  "version": "1.0.10",
+  "source_url": "",
+  "issues_url": "",
+  "privacy": false
+}
